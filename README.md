@@ -1,24 +1,20 @@
-# README
+## Brief
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. create an app using Devise
+2. Add a resource to your app to use along side devise (i.e. Posts)
+3. Add JS, SCSS (style the Devise Views), Images via asset pipeline
+4. need to have 1-many relationship
+5. user should be only able to perform crud on their own data
+6. pull page with all the ‘posts’ for example
+7. when you delete a user it will delete all of the associated records
 
-Things you may want to cover:
+## What I struggled with
 
-* Ruby version
+I spent much time trying to establish relationships between the user and songs, however I kept getting roll back messages and I was unsure why. I then realised that it was a combination of things. Firstly, I had to complete an email and a password field and secondly, I forgot to make a user_id column for the resource.
 
-* System dependencies
+I also came across many error messages that I did not know how to resolve. My only solution was to start the project again. I started over 3 times.
 
-* Configuration
 
-* Database creation
+## What went well
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I was pleased that I was eventually able to establish relationships between my users and their songs.
